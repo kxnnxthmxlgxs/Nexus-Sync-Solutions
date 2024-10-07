@@ -57,7 +57,7 @@ const ContactUs = () => {
         <div className="flex flex-col justify-center items-center">
           <div className="mb-4 text-center">
             <h3 className="text-xl font-bold mb-6">Contact Information</h3>
-            <p>Email: info@nexussyncsolutions.com</p>
+            <p>Email: malgaskenneth3@gmail.com</p>
             <p>Phone: +27 82 785 2067</p>
           </div>
 

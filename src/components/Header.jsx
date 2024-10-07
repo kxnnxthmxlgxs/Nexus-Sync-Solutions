@@ -49,7 +49,7 @@ const Header = () => {
             <Link to="/contact" className="text-white" onClick={toggleMenu}>Contact</Link>
           </li>
           <li className="py-2 md:py-0">
-            <Link to="/works" className="text-white" onClick={toggleMenu}>Works</Link>
+            <Link to="/portfolio" className="text-white" onClick={toggleMenu}>Works</Link>
           </li>
         </ul>
       </nav>
