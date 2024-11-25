@@ -26,7 +26,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="bg-zinc-800 text-white py-16">
+    <section className="bg-zinc-900 text-white py-16">
       {/* Heading */}
       <h2 className="text-3xl font-bold text-center mb-12">Our Services</h2>
 

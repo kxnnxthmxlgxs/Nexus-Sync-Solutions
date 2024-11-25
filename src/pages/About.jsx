@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 
 const About = () => {
   return (
-    <div className="about-page bg-gray-900  px-6">
+    <div className="about-page bg-zinc-800  px-6">
       <Header />
       <div className="max-w-7xl mx-auto">
         

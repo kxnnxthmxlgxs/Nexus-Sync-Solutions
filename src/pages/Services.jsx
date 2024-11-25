@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 
 const Services = () => {
   return (
-    <div className="services-page bg-gray-900 px-6">
+    <div className="services-page bg-zinc-800 px-6">
       <Header />
       <div className="max-w-7xl mx-auto">
         <ServicesHeader />

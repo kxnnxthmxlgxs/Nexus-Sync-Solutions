@@ -3,7 +3,7 @@ import React from 'react';
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="project-card bg-gray-800 rounded-lg shadow-lg p-6">
+    <div className="project-card bg-zinc-900 rounded-lg shadow-lg p-6">
       <img src={project.imageUrl} alt={project.title} className="w-full h-48 object-cover rounded-md" />
       <h2 className="text-2xl font-bold mt-4 text-white">{project.title}</h2>
       <p className="text-gray-400 mt-2">{project.description}</p>

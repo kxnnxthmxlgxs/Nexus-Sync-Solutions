@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 
 const Contact = () => {
   return (
-    <div className="contact-page bg-gray-900  px-6">
+    <div className="contact-page bg-zinc-800  px-6">
       <Header />
       <div className="max-w-7xl mx-auto">
         <ContactHeader />

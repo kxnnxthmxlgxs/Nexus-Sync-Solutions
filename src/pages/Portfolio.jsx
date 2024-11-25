@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 
 const Portfolio = () => {
   return (
-    <div className="portfolio-page bg-gray-900  px-6">
+    <div className="portfolio-page bg-zinc-800  px-6">
       <Header />
       <div className="max-w-7xl mx-auto">
         <PortfolioHeader />

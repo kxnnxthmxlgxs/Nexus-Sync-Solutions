@@ -3,7 +3,7 @@ import React from 'react';
 
 const ServiceCard = ({ title, description, icon }) => {
   return (
-    <div className="service-card bg-gray-800 rounded-lg p-6 shadow-lg">
+    <div className="service-card bg-zinc-700 rounded-lg p-6 shadow-lg">
       <div className="icon mb-4 text-[#1DEBCC]">
         {icon}
       </div>

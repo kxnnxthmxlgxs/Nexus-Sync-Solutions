@@ -23,7 +23,7 @@ const ContactForm = () => {
 
   return (
     <section className="contact-form py-12">
-      <form onSubmit={handleSubmit} className="max-w-xl mx-auto bg-gray-800 p-8 rounded-lg shadow-lg">
+      <form onSubmit={handleSubmit} className="max-w-xl mx-auto bg-zinc-700 p-8 rounded-lg shadow-lg">
         <div className="mb-6">
           <label className="block text-white text-sm font-bold mb-2" htmlFor="name">
             Name
@@ -33,7 +33,8 @@ const ContactForm = () => {
             name="name"
             value={formData.name}
             onChange={handleChange}
-            className="w-full px-3 py-2 text-gray-800 rounded-md"
+            className="w-full px-3 py-2 text-gray-800 rounded-md bg-zinc-600"
+            placeholder="Enter your full name"
             required
           />
         </div>
@@ -46,7 +47,8 @@ const ContactForm = () => {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className="w-full px-3 py-2 text-gray-800 rounded-md"
+            className="w-full px-3 py-2 text-gray-800 rounded-md bg-zinc-600"
+            placeholder="Enter your email"
             required
           />
         </div>
@@ -58,13 +60,14 @@ const ContactForm = () => {
             name="message"
             value={formData.message}
             onChange={handleChange}
-            className="w-full px-3 py-2 text-gray-800 rounded-md h-32"
+            className="w-full px-3 py-2 text-gray-800 rounded-md h-32 bg-zinc-600"
+            placeholder="Write your message here"
             required
           />
         </div>
         <button
           type="submit"
-          className="bg-[#1DEBCC] text-white py-2 px-6 rounded-lg hover:bg-teal-400"
+          className="bg-[#1DEBCC] text-white py-2 px-6 rounded-lg hover:bg-teal-400 w-full"
         >
           Submit
         </button>

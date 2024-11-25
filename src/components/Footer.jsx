@@ -1,9 +1,11 @@
 // src/components/Footer.jsx
 import React from 'react';
+import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa'; // Using react-icons for more social media variety
+
 
 const Footer = () => {
   return (
-    <footer className="bg-zinc-800 text-white py-8 px-6">
+    <footer className="bg-zinc-800 text-white py-8 px-6 ">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Column 1: Company Info */}
         <div>
@@ -28,9 +30,15 @@ const Footer = () => {
         <div className="text-center">
           <h3 className="text-2xl font-bold mb-4">Follow Us</h3>
           <div className="flex space-x-10 justify-center">
-            <a href="#" className="text-accent-color hover:opacity-80">Facebook</a>
-            <a href="#" className="text-accent-color hover:opacity-80">Twitter</a>
-            <a href="#" className="text-accent-color hover:opacity-80">LinkedIn</a>
+            <a href="#" className="text-accent-color hover:opacity-80">
+              <FaFacebookF className="h-6 w-6" />
+            </a>
+            <a href="#" className="text-accent-color hover:opacity-80">
+              <FaTwitter className="h-6 w-6" />
+            </a>
+            <a href="#" className="text-accent-color hover:opacity-80">
+              <FaLinkedinIn className="h-6 w-6" />
+            </a>
           </div>
         </div>
       </div>
